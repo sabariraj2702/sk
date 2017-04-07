@@ -1,0 +1,15 @@
+
+int main()
+{
+int a,b,w,e,l,k;
+float d;
+scanf("%d\t%d\n%d\t%d",&a,&b,&w,&e);
+A=a/5;
+l=A/w;
+B=b/5;
+k=B/e;
+d=l-k;
+d=pow(d,2);
+d=pow(d,o.5);
+printf("%0.2f",d);
+}
