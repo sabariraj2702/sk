@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n,f[1000],s[1000],i,a,b,ft,st;
+    float fa,sa;
+    scanf("%d",&n);
+    a=0;
+    b=0;
+    for(i=1;i<=n;i++)
+    {
+        scanf("%d\t%d",&f[i],&s[i]);
+    }
+    for(i=1;i<=n;i++)
+    {
+      ft=a+f[i];
+      st=b+s[i];
+      a=ft;
+      b=st;
+    }
+    fa=ft/n;
+    sa=st/n;
+    printf("%0.2f\n%0.2f",fa,sa);
+
+
+}
