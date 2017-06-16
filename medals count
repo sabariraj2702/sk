@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i;
+    char a [100];
+    scanf("%s",&a);
+    scanf("%d",&i);
+    printf("%s won %d medals",a,i);
+    return 0;
+
+
+}
