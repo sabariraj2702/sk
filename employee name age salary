@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+char a [100];
+int i;
+float s;
+scanf("%s%d%f",&a,&i,&s);
+printf("%s\n",a);
+printf("**\n");
+printf("%d\n",i);
+printf("**\n");
+printf("%0.2f\n",s);
+return 0;
+
+}
