@@ -1,0 +1,78 @@
+#include<stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,b,i,j,m,n,rev1,temp,r,rev2,rev3;
+    temp=0;
+    a=0;
+    b=0;
+    scanf("%d",&m);
+    scanf("%d",&n);
+    while(m!=0)
+    {
+        r=m%10;
+        rev1=temp*10+r;
+        temp=rev1;
+        m=m/10;
+        a++;
+    }
+    temp=0;
+    while(n!=0)
+    {
+        r=n%10;
+        rev2=temp*10+r;
+        temp=rev2;
+        n=n/10;
+        b++;
+        
+    }
+   if(a==b)
+   {
+   {
+       i=rev1+rev2;
+}
+temp=0;
+while(i!=0)
+{
+    r=i%10;
+    rev3=temp*10+r;
+    temp=rev3;
+    i=i/10;
+}
+}
+if(a>b)
+{
+    int z=a-b;
+    
+{
+    rev2=rev2*pow(10,z);
+    i=rev1+rev2;
+}
+temp=0;
+while(i!=0)
+{
+    r=i%10;
+    rev3=temp*10+r;
+    temp=rev3;
+    i=i/10;
+}
+}
+if(a<b)
+{
+    z=b-a;
+    {
+        rev1=rev1*pow(10,z);
+        i=rev1+rev2;
+    }
+    temp=0;
+    while(i!=0)
+    {
+        r=i%10;
+        rev3=temp*10+r;
+        temp=rev3;
+        i=i/10;
+    }
+}
+printf("%d",rev3);
+}
